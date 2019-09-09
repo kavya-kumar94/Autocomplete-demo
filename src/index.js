@@ -5,12 +5,16 @@ require ('./autocomplete.css');
 
 function App() {
     return (
-        <div>
-            <h1>React Autocomplete Demo</h1>
-            <h2>Start typing and experience the autocomplete wizardry!</h2>
+        <div className="main">
+            <h1>Autocomplete Demo</h1>
+            <h2>Start typing!</h2>
             <Autocomplete
                 suggestions={[
                     "Alligator",
+                    "Kavya",
+                    "App Academy",
+                    "Autocomplete",
+                    "Music",
                     "Bask",
                     "Crocodilian",
                     "Death Roll",

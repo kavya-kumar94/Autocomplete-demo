@@ -1,5 +1,14 @@
 body {
   font-family: sans-serif;
+  color: #8f0037;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 input {
@@ -30,8 +39,8 @@ input {
 
 .suggestion-active,
 .suggestions li:hover {
-  background-color: #008f68;
-  color: #fae042;
+  background-color: #8f0037;
+  color: #ffffff;
   cursor: pointer;
   font-weight: 700;
 }
