@@ -11,6 +11,8 @@ class Autocomplete extends Component {
         suggestions: []
     };
 
+    
+
     constructor(props) {
         super(props);
 
